@@ -1,0 +1,13 @@
+.rootTechstack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rootTechstack img{
+    height: 7vh;
+    width: auto;
+
+    padding: .5vh;
+}
