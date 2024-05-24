@@ -10,6 +10,13 @@ a {
     padding: .5vh;
 }
 
+a:hover {
+    background-color: rgb(60, 0, 156);
+    
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 img{
     height: 5vh;
     width: auto;

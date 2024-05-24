@@ -14,10 +14,14 @@ import ParticleComponent from './Particles'
 
 function App() {
 
+  
+
   return (
     <>
-      <div className="root">
-        <img src={portfolioLogo} className='portfoliologo' alt="" />
+      <div className="root" id='root'>
+        <div className="portfoliologo">
+          <img src={portfolioLogo} alt="" />
+        </div>
         <Links />
 
         <Welcome/>

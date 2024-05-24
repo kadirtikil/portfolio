@@ -4,9 +4,9 @@ export default function Projects() {
 
     return (
         <div className="rootProjects">
-            <h1>projects:</h1>
-            <a href="">funktionale konzepte im rahmen der ba</a>
-            <a href="">real time chat mit aws sockets</a>
+            <h1 id='projectsId'>projects:</h1>
+            <a href="">funtional concepts explained</a>
+            <a href="">real time chat using aws sockets(currently)</a>
         </div>
     )
 }

@@ -8,3 +8,7 @@ a {
 a:hover{
     color: rgb(28, 243, 0);
 }
+
+#projectsId {
+    font-size: 3vh;
+}
