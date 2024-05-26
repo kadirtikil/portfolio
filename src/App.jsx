@@ -27,9 +27,9 @@ function App() {
         <Welcome/>
 
         <Projects />
-
-        <Techstack/>
-
+        <div id="rootTechstack">
+          <Techstack/>
+        </div>
         <div id="particles">
           <ParticleComponent/>
         </div>

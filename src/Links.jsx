@@ -15,7 +15,7 @@ export default function Links() {
         var email = "kadirtikil@gmail.com";
 
         navigator.clipboard.writeText(email).then(() => {
-            setToolTipTitle("email copied! go away now u r hogging server resources this stuff mad expensive");
+            setToolTipTitle("email copied!");
             setTimeout(() => setToolTipTitle('click to copy my email'), 5000);
         });
     }
