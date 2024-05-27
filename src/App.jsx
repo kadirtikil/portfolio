@@ -12,6 +12,7 @@ import Techstack from './Techstack'
 import ParticleComponent from './Particles'
 
 
+
 function App() {
 
   
@@ -25,7 +26,6 @@ function App() {
         <Links />
 
         <Welcome/>
-
         <Projects />
         <div id="rootTechstack">
           <Techstack/>

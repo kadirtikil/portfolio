@@ -10,6 +10,7 @@ import laravelLogo from './assets/laravel.svg'
 import ngLogo from './assets/ng.svg'
 import reactLogo from './assets/react.svg'
 import phpLogo from './assets/php.svg'
+import awsLogo from './assets/aws.svg'
 
 
 
@@ -29,6 +30,7 @@ export default function Techstack(){
             <img src={laravelLogo} alt="" />
             <img src={gitLogo} alt="" />
             <img src={githubLogo} alt="" />
+            <img src={awsLogo} alt="" />
 
         </div>
     )

@@ -8,7 +8,7 @@ export default function Welcome() {
                 my name is kadir.
                 this website is the central hub of my projects. <br/>
                 feel free to look at them. <br/>
-                links r provided on the right.<br/><br/>
+                links are provided on the right.<br/><br/>
 
                 contact me too or look at my github if u want.
             </p>
