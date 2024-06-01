@@ -1,13 +1,13 @@
 import './Links.css'
-import gmailLogo from './assets/gmail.svg'
-import githubLogo from './assets/github.svg'
+import gmailLogo from '../../assets/svgs/gmail.svg'
+import githubLogo from '../../assets/svgs/github.svg'
 
 import Tooltip from '@mui/material/Tooltip';
 import { useState } from 'react';
 
 
-export default function Links() {
-    const [toolTipTitle, setToolTipTitle] = useState('click to copy my email');
+export default function Links({data}) {
+    const [toolTipTitle, setToolTipTitle] = useState(data['clickToCopyEmail']);
 
     const copyEmail = (event) => {
         event.preventDefault();
@@ -15,8 +15,8 @@ export default function Links() {
         var email = "kadirtikil@gmail.com";
 
         navigator.clipboard.writeText(email).then(() => {
-            setToolTipTitle("email copied!");
-            setTimeout(() => setToolTipTitle('click to copy my email'), 5000);
+            setToolTipTitle(data['copyEmailConfirmed']);
+            setTimeout(() => setToolTipTitle(data['clickToCopyEmail']), 5000);
         });
     }
 
@@ -27,7 +27,7 @@ export default function Links() {
                     <img src={gmailLogo}></img>
                 </a>
             </Tooltip>
-            <Tooltip title="click to go to my github">
+            <Tooltip title={data['clickToGoToGithub']}>
                 <a href="https://github.com/kadirtikil" target='_blank'>
                     <img src={githubLogo}></img>
                 </a>

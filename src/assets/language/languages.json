@@ -1,0 +1,32 @@
+{
+   "german": {
+        "welcome": "willkommen.",
+        "welcome_text": "mein name ist kadir. diese webseite dient als zentrale schnittstelle meiner projekte. schau dich um und schau sie dir an. links sind rechts gelistet.",
+        "outro": "kontaktiere mich oder schau dir auch mein github an.",
+        "projects": "projekte:",
+        "projectsList": {
+            "funktionale konzepte in Projekten erklärt": "/",
+            "template website1 (aktuell)": "/",
+            "real time chat mit aws sockets(als nächstes)": "/"
+        },
+        "clickToCopyEmail": "klicke um meine email zu kopieren",
+        "copyEmailConfirmed": "email kopiert!",
+        "clickToGoToGithub": "klicke um mein github zu besuchen",
+        "tooltipForLanguage": "switch to english"
+    },
+    "english": {
+        "welcome": "welcome.",
+        "welcome_text": "my name is kadir. this website is the central hub of my projects. feel free to look at them. links are provided on the right",
+        "outro": "contact me too or look at my github if u want.",
+        "projects": "projects:",
+        "projectsList": {
+            "funtional concepts in projects explained": "/",
+            "template website1 (currently)": "/",
+            "real time chat using aws sockets(next)": "/"
+        },
+        "clickToCopyEmail": "click to copy my email",
+        "copyEmailConfirmed": "email copied!",
+        "clickToGoToGithub": "click to go to my github",
+        "tooltipForLanguage": "auf deutsch"
+    }
+}

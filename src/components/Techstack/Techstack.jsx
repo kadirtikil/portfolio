@@ -1,16 +1,16 @@
 import './Techstack.css'
 
-import aspnetLogo from './assets/aspnet.svg'
-import csharpLogo from './assets/csharp.svg'
-import gitLogo from './assets/git.svg'
-import githubLogo from './assets/github.svg'
-import jsLogo from './assets/js.svg'
-import tsLogo from './assets/typescript.svg'
-import laravelLogo from './assets/laravel.svg'
-import ngLogo from './assets/ng.svg'
-import reactLogo from './assets/react.svg'
-import phpLogo from './assets/php.svg'
-import awsLogo from './assets/aws.svg'
+import aspnetLogo from '../../assets/svgs/aspnet.svg'
+import csharpLogo from '../../assets/svgs/csharp.svg'
+import gitLogo from '../../assets/svgs/git.svg'
+import githubLogo from '../../assets/svgs/github.svg'
+import jsLogo from '../../assets/svgs/js.svg'
+import tsLogo from '../../assets/svgs/typescript.svg'
+import laravelLogo from '../../assets/svgs/laravel.svg'
+import ngLogo from '../../assets/svgs/ng.svg'
+import reactLogo from '../../assets/svgs/react.svg'
+import phpLogo from '../../assets/svgs/php.svg'
+import awsLogo from '../../assets/svgs/aws.svg'
 
 
 
