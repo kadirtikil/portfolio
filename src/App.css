@@ -61,6 +61,27 @@
     width: 100%;
     position: absolute;
   }
+
+  button {
+    background-color: transparent;
+    border: transparent;
+
+    position: fixed;
+    bottom: 0.5vh;
+    left: 0.5vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button:hover {
+    background-color: rgba(7, 100, 112, 0.4);
+    box-shadow: 0 0 10px rgba(3, 71, 172, 0.9);
+    border-radius: 10px;
+
+    cursor: pointer;
+  }
 }
 
 
