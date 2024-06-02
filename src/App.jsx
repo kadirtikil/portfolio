@@ -27,19 +27,25 @@ function App() {
 
   const [flagForLanguage, setFlagForLanguage] = useState(germany);
 
-  const switchLanguage = (lan) => {
-    setLanguage(lan);
-  }
+  const [mobileTextForLink, setMobileTextForLinks] = useState('click on the gmail logo to copy my email or click on the github logo to visit my github page.');
 
   function changeLanguage() {
     if(language === 'german'){
       setLanguage('english');
       setFlagForLanguage(germany);
+      setMobileTextForLinks('click on the gmail logo to copy my email (doesnt work on ios safari) or click on the github logo to visit my github page.')
     }
     else {
       setLanguage('german');
       setFlagForLanguage(uk);
+      setMobileTextForLinks('klicke auf das gmail logo um meine email zu kopieren (funtioniert nicht auf safari) oder klicke auf das github logo um mein github zu besuchen.')
     }
+  }
+
+  function closeSmallLogoDialog() {
+    const closebutton = document.getElementById("ismobile");
+
+    closebutton.style = 'display: none;'
   }
 
   return (
@@ -63,6 +69,10 @@ function App() {
         </div>
         <div id="particles">
           <ParticleComponent/>
+        </div>
+        <div className="ismobile" id="ismobile">
+          <p id='close' onClick={closeSmallLogoDialog}>X</p>
+          <p>{mobileTextForLink}</p>
         </div>
       </div>
       <Tooltip title={languages[language]['tooltipForLanguage']}>
