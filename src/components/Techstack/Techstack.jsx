@@ -11,6 +11,7 @@ import ngLogo from '../../assets/svgs/ng.svg'
 import reactLogo from '../../assets/svgs/react.svg'
 import phpLogo from '../../assets/svgs/php.svg'
 import awsLogo from '../../assets/svgs/aws.svg'
+import goLogo from '../../assets/svgs/go.svg'
 
 
 
@@ -19,7 +20,6 @@ import awsLogo from '../../assets/svgs/aws.svg'
 export default function Techstack(){
     return (
         <div className='rootTechstack'>
-            
             <img src={jsLogo} alt="" />
             <img src={tsLogo} alt="" />
             <img src={ngLogo} alt="" />
@@ -29,7 +29,7 @@ export default function Techstack(){
             <img src={phpLogo} alt="" />
             <img src={laravelLogo} alt="" />
             <img src={gitLogo} alt="" />
-            <img src={githubLogo} alt="" />
+            <img src={goLogo} alt="" />
             <img src={awsLogo} alt="" />
 
         </div>
